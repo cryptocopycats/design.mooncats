@@ -3,9 +3,27 @@ body {
   margin: 20px;
 }
 
-ol, ul {
-  padding-left: 30px;
+
+.square {
+  float: left;
+  height: 34px;
+  width: 34px;
+
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
 }
+
+.square:focus {
+  outline: none;
+}
+
 
 .board-row:after {
   clear: both;
@@ -17,28 +35,6 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
-}
-
-.square:focus {
-  outline: none;
-}
-
-.kbd-navigation .square:focus {
-  background: #ddd;
-}
 
 .game {
   display: flex;
