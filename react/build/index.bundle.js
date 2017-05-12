@@ -9620,30 +9620,42 @@ var Game = function (_React$Component) {
       });
 
       return _react2.default.createElement(
-        'div',
-        { className: 'game' },
+        'table',
+        null,
         _react2.default.createElement(
-          'div',
+          'tbody',
           null,
-          _react2.default.createElement(_Board2.default, {
-            squares: current.squares,
-            onClick: function onClick(i) {
-              return _this2.handleClick(i);
-            }
-          })
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'game-info' },
           _react2.default.createElement(
-            'div',
+            'tr',
             null,
-            status
-          ),
-          _react2.default.createElement(
-            'ol',
-            null,
-            moves
+            _react2.default.createElement(
+              'td',
+              { style: { verticalAlign: "top" } },
+              _react2.default.createElement(_Board2.default, {
+                squares: current.squares,
+                onClick: function onClick(i) {
+                  return _this2.handleClick(i);
+                }
+              })
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              _react2.default.createElement(
+                'div',
+                { className: 'game-info' },
+                _react2.default.createElement(
+                  'div',
+                  null,
+                  status
+                ),
+                _react2.default.createElement(
+                  'ol',
+                  null,
+                  moves
+                )
+              )
+            )
           )
         )
       );
@@ -9653,7 +9665,6 @@ var Game = function (_React$Component) {
   return Game;
 }(_react2.default.Component); // class Game
 
-// ========================================
 
 exports.default = Game;
 function calculateWinner(squares) {
@@ -9734,7 +9745,7 @@ var Board = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'board' },
         _react2.default.createElement(
           'div',
           { className: 'board-row' },
@@ -9786,7 +9797,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Square(props) {
   return _react2.default.createElement(
-    "button",
+    "div",
     { className: "square", onClick: function onClick() {
         return props.onClick();
       } },

@@ -1,0 +1,84 @@
+
+<style>
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+.board {
+  display: table;
+  border-collapse: collapse;
+}
+
+.board-row {
+  display: table-row;
+}
+
+.square {
+  display: table-cell;
+  height: 34px;
+  width: 34px;
+
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.game-info {
+  margin-left: 20px;
+}
+
+</style>
+
+<h1>Tic Tac Toe</h1>
+
+<table>
+  <tr>
+    <td valign="top">
+      <!-- column 1 -->
+
+<div class="board">
+  <div class="board-row">
+    <div class="square" onclick="handleClick(this)">X  <!-- 0 --></div>
+    <div class="square" onclick="handleClick(this)">O<!-- 1 --></div>
+    <div class="square" onclick="handleClick(this)"><!-- 2 --></div>
+  </div>
+  <div class="board-row">
+    <div class="square" onclick="handleClick(this)"><!-- 3 --></div>
+    <div class="square" onclick="handleClick(this)">X<!-- 4 --></div>
+    <div class="square" onclick="handleClick(this)"><!-- 5 --></div>
+  </div>
+  <div class="board-row">
+    <div class="square" onclick="handleClick(this)"><!-- 6 --></div>
+    <div class="square" onclick="handleClick(this)"><!-- 7 --></div>
+    <div class="square" onclick="handleClick(this)"><!-- 8 --></div>
+  </div>
+</div>
+  </td>
+  <td>
+   <!-- column 2 -->
+
+<div class="game-info">
+  <div>Next player: O</div>
+  <ol>
+    <li><a href="#">Game start</a></li>
+    <li><a href="#">Move #1</a></li>
+    <li><a href="#">Move #2</a></li>
+    <li><a href="#">Move #3</a></li>
+  </ol>
+</div>
+  </td>
+</tr>
+</table>
+
+
+
+<script>
+  function handleClick(el) {
+    // alert( "clicked square "+ el.textContent  );
+    console.log( "clicked square "+ el.textContent  );
+  }
+</script>
