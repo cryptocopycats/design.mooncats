@@ -9620,42 +9620,26 @@ var Game = function (_React$Component) {
       });
 
       return _react2.default.createElement(
-        'table',
-        null,
+        'div',
+        { className: 'container' },
+        _react2.default.createElement(_Board2.default, {
+          squares: current.squares,
+          onClick: function onClick(i) {
+            return _this2.handleClick(i);
+          }
+        }),
         _react2.default.createElement(
-          'tbody',
-          null,
+          'div',
+          { className: 'game-info' },
           _react2.default.createElement(
-            'tr',
+            'div',
             null,
-            _react2.default.createElement(
-              'td',
-              { style: { verticalAlign: "top" } },
-              _react2.default.createElement(_Board2.default, {
-                squares: current.squares,
-                onClick: function onClick(i) {
-                  return _this2.handleClick(i);
-                }
-              })
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              _react2.default.createElement(
-                'div',
-                { className: 'game-info' },
-                _react2.default.createElement(
-                  'div',
-                  null,
-                  status
-                ),
-                _react2.default.createElement(
-                  'ol',
-                  null,
-                  moves
-                )
-              )
-            )
+            status
+          ),
+          _react2.default.createElement(
+            'ol',
+            null,
+            moves
           )
         )
       );
@@ -9826,7 +9810,7 @@ var _Game2 = _interopRequireDefault(_Game);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(_Game2.default, null), document.getElementById('container'));
+_reactDom2.default.render(_react2.default.createElement(_Game2.default, null), document.getElementById('app'));
 
 /***/ }),
 /* 86 */

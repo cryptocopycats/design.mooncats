@@ -1,9 +1,6 @@
 {
   "name": "tictactoe-react",
   "private": true,
-  "scripts": {
-    "build": "webpack"
-  },
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -14,5 +11,8 @@
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
     "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "build": "webpack"
   }
 }

@@ -64,21 +64,16 @@ export default class Game extends React.Component {
     });
 
     return(
-      <table>
-        <tbody>
-        <tr><td style={{verticalAlign: "top"}}>
-          <Board
+      <div className="container">
+        <Board
             squares={current.squares}
             onClick={(i) => this.handleClick(i)}
           />
-        </td><td>
         <div className="game-info">
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
-      </td></tr>
-      </tbody>
-      </table>
+      </div>
     );
   }
 } // class Game
@@ -96,9 +91,9 @@ function calculateWinner(squares) {
     [0, 4, 8],
     [2, 4, 6],
   ];
-  for (let i = 0; i < lines.length; i++) {
+  for( let i = 0; i < lines.length; i++ ) {
     const [a, b, c] = lines[i];
-    if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+    if( squares[a] && squares[a] === squares[b] && squares[a] === squares[c] ) {
       return squares[a];
     }
   }
