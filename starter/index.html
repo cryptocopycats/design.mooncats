@@ -5,6 +5,10 @@ body {
   font: 14px "Century Gothic", Futura, sans-serif;
 }
 
+.container {
+  display: flex;     /* note: defaults to horizontal left-to-right (row) */
+}
+
 .board {
   display: table;
   border-collapse: collapse;
@@ -35,11 +39,8 @@ body {
 
 <h1>Tic Tac Toe</h1>
 
-<table>
-  <tr>
-    <td valign="top">
+<div class="container">
       <!-- column 1 -->
-
 <div class="board">
   <div class="board-row">
     <div class="square" onclick="handleClick(this)">X  <!-- 0 --></div>
@@ -57,10 +58,8 @@ body {
     <div class="square" onclick="handleClick(this)"><!-- 8 --></div>
   </div>
 </div>
-  </td>
-  <td>
-   <!-- column 2 -->
 
+   <!-- column 2 -->
 <div class="game-info">
   <div>Next player: O</div>
   <ol>
@@ -70,10 +69,7 @@ body {
     <li><a href="#">Move #3</a></li>
   </ol>
 </div>
-  </td>
-</tr>
-</table>
-
+</div>
 
 
 <script>
