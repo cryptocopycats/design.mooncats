@@ -58,3 +58,9 @@ Example for design 0:
 Paste the text into the box below the pixel grid canvas and click on the read button.
 
 
+
+
+## Questions? Comments?
+
+Post them on the [mooncatrescue reddit](https://old.reddit.com/r/mooncatrescue). Thanks.
+
