@@ -33,7 +33,7 @@ source of the original example.
 
 Yes, you can read in the design into the pixel drawing tool online  (reformat required - every pixel row must be on its own line
 and all (color) numbers space separated).
-Example for design 0:
+Example for [design 0](orginial/000.txt):
 
 ```
 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
@@ -56,6 +56,41 @@ Example for design 0:
 ```
 
 Paste the text into the box below the pixel grid canvas and click on the read button.
+Now you should see the mooncat pixel design.
+
+
+![](https://github.com/cryptocopycats/awesome-mooncatrescue-bubble/raw/master/i/pixel-design-000.png)
+
+
+And for some more fun here's the [design 3](orginial/003.txt) reformatted - ready to copy'n'paste:
+
+```
+0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 1 3 3 3 3 1 1 1 0 0
+0 0 0 0 0 0 0 0 0 0 1 3 1 1 3 3 3 1 0 0
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 3 1 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 1 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 3 1 0
+0 0 1 1 0 0 0 0 1 1 0 0 0 1 1 1 1 1 1 0
+0 1 3 1 0 0 0 1 3 1 0 0 1 1 3 3 3 3 1 1
+1 3 5 3 1 1 1 3 5 3 1 1 1 3 3 3 3 3 3 1
+1 3 3 3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3 1
+1 3 3 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 3 1
+1 3 3 1 3 3 3 1 3 3 1 3 3 3 3 3 3 3 1 1
+1 3 3 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 1 0
+1 3 3 4 3 5 3 4 3 3 1 3 3 3 3 4 3 3 1 0
+1 3 3 3 4 3 4 3 3 3 1 3 3 4 4 4 3 3 1 0
+0 1 3 3 3 3 3 3 3 1 1 3 4 4 4 1 3 3 3 1
+0 0 1 1 1 1 1 1 1 3 3 3 1 1 1 1 1 3 3 1
+0 1 1 3 3 3 3 3 3 3 1 1 1 3 3 1 1 3 1 1
+1 1 3 3 3 1 3 3 1 1 1 1 5 3 1 1 3 3 1 0
+1 5 3 1 1 1 5 1 1 0 0 1 1 1 1 5 3 1 1 0
+1 1 1 1 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0
+```
+
+![](https://github.com/cryptocopycats/awesome-mooncatrescue-bubble/raw/master/i/pixel-design-003.png)
+
+
 
 
 
