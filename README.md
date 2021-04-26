@@ -33,7 +33,7 @@ source of the original example.
 
 Yes, you can read in the design into the pixel drawing tool online  (reformat required - every pixel row must be on its own line
 and all (color) numbers space separated).
-Example for [design 0](orginial/000.txt):
+Example for [design 0](original/000.txt):
 
 ```
 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
@@ -62,7 +62,7 @@ Now you should see the mooncat pixel design.
 ![](https://github.com/cryptocopycats/awesome-mooncatrescue-bubble/raw/master/i/pixel-design-000.png)
 
 
-And for some more fun here's the [design 3](orginial/003.txt) reformatted - ready to copy'n'paste:
+And for some more fun here's the [design 3](original/003.txt) reformatted - ready to copy'n'paste:
 
 ```
 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0
