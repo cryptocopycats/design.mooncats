@@ -10,14 +10,22 @@ Note: The pixel size depends on the pose:
 standing (21×17), sleeping (20×14), pouncing (17×22), stalking (20×21)
 
 ![](i/original-008.png)
+![](i/original-012.png)
 ![](i/original-009.png)
+![](i/original-013.png)
 ![](i/original-010.png)
+![](i/original-014.png)
 ![](i/original-011.png)
+![](i/original-015.png)
 
 ![](i/original-008x4.png)
+![](i/original-012x4.png)
 ![](i/original-009x4.png)
+![](i/original-013x4.png)
 ![](i/original-010x4.png)
+![](i/original-014x4.png)
 ![](i/original-011x4.png)
+![](i/original-015x4.png)
 
 For more see [**original »**](original)
 
@@ -32,14 +40,22 @@ and changing all other color #5 pixels to color #4.
 Can you spot the difference?
 
 ![](i/v2-008.png)
+![](i/v2-012.png)
 ![](i/v2-009.png)
+![](i/v2-013.png)
 ![](i/v2-010.png)
+![](i/v2-014.png)
 ![](i/v2-011.png)
+![](i/v2-015.png)
 
 ![](i/v2-008x4.png)
+![](i/v2-012x4.png)
 ![](i/v2-009x4.png)
+![](i/v2-013x4.png)
 ![](i/v2-010x4.png)
+![](i/v2-014x4.png)
 ![](i/v2-011x4.png)
+![](i/v2-015x4.png)
 
 
 What's the point?
