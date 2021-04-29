@@ -74,7 +74,7 @@ For more see [**v2 »**](v2)
 
 
 
-## Original CryptoCats Series (32×32) - 2 Designs
+## Original CryptoCats Series (32×32) - 4 Designs
 
 Let's keep the V2 color scheme
 and cross-over to CryptoCats.
@@ -90,10 +90,13 @@ Let's try:
 
 ![](i/cryptocats-000.png)
 ![](i/cryptocats-001.png)
+![](i/cryptocats-002.png)
+![](i/cryptocats-003.png)
 
 ![](i/cryptocats-000x4.png)
 ![](i/cryptocats-001x4.png)
-
+![](i/cryptocats-002x4.png)
+![](i/cryptocats-003x4.png)
 
 For more see [**cryptocats »**](cryptocats)
 
