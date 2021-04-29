@@ -74,6 +74,32 @@ For more see [**v2 »**](v2)
 
 
 
+## Original CryptoCats Series (32×32) - 2 Designs
+
+Let's keep the V2 color scheme
+and cross-over to CryptoCats.
+
+Note: The designs in the original MoonCatRescue series
+only use 5 colors (plus transparent).
+As a new convention lets add two more "hard-coded" always pre-defined / present colors:
+
+- #6 - BLACK (`000000`)
+- #7 - WHITE (`ffffff`)
+
+Let's try:
+
+![](i/cryptocats-000.png)
+![](i/cryptocats-001.png)
+
+![](i/cryptocats-000x4.png)
+![](i/cryptocats-001x4.png)
+
+
+For more see [**cryptocats »**](cryptocats)
+
+
+
+
 
 
 ## Tools
