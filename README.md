@@ -111,42 +111,40 @@ For more see [**cryptocats »**](cryptocats)
 
 ## Tools
 
-###  Do-It-Yourself (DIY) Corner - The Original Mooncat Pixel Drawing Tool Online
-
-The Mooncat developers (Ponderware) write:
-
-> Here is the tool we wrote and used to generate the MoonCatRescue pixel art.
-> There has been some interest in knowing how we drew them, so we figured we might as well release it.
-> Prepare to be underwhelmed!  => [**mooncatrescue.com/pixeleditor**](https://mooncatrescue.com/pixeleditor)
+###  Do-It-Yourself (DIY) Corner - Yes, You Can! - Draw Your Own Free Cats (In 24x24 Or 32x32) That You Own 100% Forever
 
 
+Try the Cat Pixel Drawing Tool online
+=> [**https://cryptocopycats.github.io**](https://cryptocopycats.github.io/)
+
+How does it work?
 
 A little tip if you try it out online - there are [128 original mooncat pixel drawings / designs](https://github.com/cryptocopycats/awesome-mooncatrescue-bubble/blob/master/DESIGNS.md)
 (all encoded in the original source code in a single-line string - see [`designs.rb`](https://raw.githubusercontent.com/cryptocopycats/mooncats/master/mooncats/lib/mooncats/designs.rb) for a "word-wrapped" more readable
 source of the original example.
 
-Yes, you can read in the design into the pixel drawing tool online  (reformat required - every pixel row must be on its own line
-and all (color) numbers space separated).
+Yes, you can read in any design into the pixel drawing tool online.
 Example for [design 0](original/000.txt):
 
+
 ```
-0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
-0 1 3 1 0 0 0 1 3 1 0 0 0 0 0 0 0 0 0 0 0
-0 1 5 3 1 1 1 3 5 1 0 0 0 0 0 0 0 0 0 0 0
-1 1 3 3 3 3 3 3 3 1 1 0 0 0 0 0 0 1 1 1 0
-1 3 3 3 3 3 3 3 3 3 1 0 0 0 0 0 0 1 3 1 0
-1 3 3 1 3 3 3 1 3 3 1 1 1 1 1 1 0 1 1 3 1
-1 3 3 3 3 3 3 3 3 3 1 3 3 3 3 1 1 0 1 3 1
-1 3 3 4 3 5 3 4 3 3 1 3 3 3 3 3 1 0 1 3 1
-1 3 3 3 4 3 4 3 3 3 1 3 3 3 3 3 1 1 1 3 1
-0 1 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 3 3 1 1
-0 0 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 1 1 1 0
-0 0 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 0 0 0
-0 0 1 3 3 3 3 3 1 4 4 4 1 3 3 3 1 1 0 0 0
-0 0 0 1 3 3 1 3 3 1 4 1 3 3 3 1 1 0 0 0 0
-0 0 0 0 1 3 1 1 3 1 4 1 3 3 1 1 0 0 0 0 0
-0 0 0 0 1 5 1 1 5 1 1 5 3 1 1 0 0 0 0 0 0
-0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+. . @ . . . . . @ . . . . . . . . . . . .
+. @ o @ . . . @ o @ . . . . . . . . . . .
+. @ ~ o @ @ @ o ~ @ . . . . . . . . . . .
+@ @ o o o o o o o @ @ . . . . . . @ @ @ .
+@ o o o o o o o o o @ . . . . . . @ o @ .
+@ o o @ o o o @ o o @ @ @ @ @ @ . @ @ o @
+@ o o o o o o o o o @ o o o o @ @ . @ o @
+@ o o ^ o ~ o ^ o o @ o o o o o @ . @ o @
+@ o o o ^ o ^ o o o @ o o o o o @ @ @ o @
+. @ o o o o o o o @ o o o o o o o o o @ @
+. . @ @ @ @ @ @ @ o o o o o o o o @ @ @ .
+. . @ o o o o o o o o o o o o o o @ . . .
+. . @ o o o o o @ ^ ^ ^ @ o o o @ @ . . .
+. . . @ o o @ o o @ ^ @ o o o @ @ . . . .
+. . . . @ o @ @ o @ ^ @ o o @ @ . . . . .
+. . . . @ ~ @ @ ~ @ @ ~ o @ @ . . . . . .
+. . . . @ @ @ @ @ @ @ @ @ @ . . . . . . .
 ```
 
 Paste the text into the box below the pixel grid canvas and click on the read button.
@@ -159,33 +157,30 @@ Now you should see the mooncat pixel design.
 And for some more fun here's the [design 3](original/003.txt) reformatted - ready to copy'n'paste:
 
 ```
-0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 1 3 3 3 3 1 1 1 0 0
-0 0 0 0 0 0 0 0 0 0 1 3 1 1 3 3 3 1 0 0
-0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 3 1 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 1 1 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 3 1 0
-0 0 1 1 0 0 0 0 1 1 0 0 0 1 1 1 1 1 1 0
-0 1 3 1 0 0 0 1 3 1 0 0 1 1 3 3 3 3 1 1
-1 3 5 3 1 1 1 3 5 3 1 1 1 3 3 3 3 3 3 1
-1 3 3 3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3 1
-1 3 3 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 3 1
-1 3 3 1 3 3 3 1 3 3 1 3 3 3 3 3 3 3 1 1
-1 3 3 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 1 0
-1 3 3 4 3 5 3 4 3 3 1 3 3 3 3 4 3 3 1 0
-1 3 3 3 4 3 4 3 3 3 1 3 3 4 4 4 3 3 1 0
-0 1 3 3 3 3 3 3 3 1 1 3 4 4 4 1 3 3 3 1
-0 0 1 1 1 1 1 1 1 3 3 3 1 1 1 1 1 3 3 1
-0 1 1 3 3 3 3 3 3 3 1 1 1 3 3 1 1 3 1 1
-1 1 3 3 3 1 3 3 1 1 1 1 5 3 1 1 3 3 1 0
-1 5 3 1 1 1 5 1 1 0 0 1 1 1 1 5 3 1 1 0
-1 1 1 1 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0
+. . . . . . . . . . @ @ @ @ @ @ . . . .
+. . . . . . . . . . @ o o o o @ @ @ . .
+. . . . . . . . . . @ o @ @ o o o @ . .
+. . . . . . . . . . @ @ . . @ @ o @ . .
+. . . . . . . . . . . . . . . @ o @ @ .
+. . . . . . . . . . . . . . . @ o o @ .
+. . @ @ . . . . @ @ . . . @ @ @ @ @ @ .
+. @ o @ . . . @ o @ . . @ @ o o o o @ @
+@ o ~ o @ @ @ o ~ o @ @ @ o o o o o o @
+@ o o o o o o o o o @ @ o o o o o o o @
+@ o o o o o o o o o @ o o o o o o o o @
+@ o o @ o o o @ o o @ o o o o o o o @ @
+@ o o o o o o o o o @ o o o o o o o @ .
+@ o o ^ o ~ o ^ o o @ o o o o ^ o o @ .
+@ o o o ^ o ^ o o o @ o o ^ ^ ^ o o @ .
+. @ o o o o o o o @ @ o ^ ^ ^ @ o o o @
+. . @ @ @ @ @ @ @ o o o @ @ @ @ @ o o @
+. @ @ o o o o o o o @ @ @ o o @ @ o @ @
+@ @ o o o @ o o @ @ @ @ ~ o @ @ o o @ .
+@ ~ o @ @ @ ~ @ @ . . @ @ @ @ ~ o @ @ .
+@ @ @ @ . @ @ @ . . . . . . @ @ @ @ . .
 ```
 
 ![](https://github.com/cryptocopycats/awesome-mooncatrescue-bubble/raw/master/i/pixel-design-003.png)
-
-
-
 
 
 
