@@ -115,7 +115,7 @@ For more see [**cryptocats »**](cryptocats)
 
 
 Try the Cat Pixel Drawing Tool online
-=> [**https://cryptocopycats.github.io**](https://cryptocopycats.github.io/)
+=> [**cryptocopycats.github.io**](https://cryptocopycats.github.io/)
 
 How does it work?
 
